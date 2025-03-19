@@ -56,8 +56,12 @@ MIDDLEWARE = [
 
 # Enable CORS for the React app
 CORS_ALLOWED_ORIGINS = [
+    "https://trucking-frontend-five.vercel.app",
     "http://localhost:3000",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
+
 
 # Configure REST Framework
 REST_FRAMEWORK = {
