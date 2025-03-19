@@ -55,7 +55,8 @@ MIDDLEWARE = [
 
 # Enable CORS for the React app
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    # "http://localhost:3000",
+    "https://eld-log.onrender.com",
 ]
 
 # Configure REST Framework
