@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2)2@k$b-*xsz7jkls@(h06hh6(y=2pl5tt_kr9y_6+$o5ne(9$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["eld-log.onrender.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["eld-log.onrender.com"]
 
 CSRF_TRUSTED_ORIGINS = ['https://eld-log.onrender.com']
 
